@@ -1,0 +1,63 @@
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    display: flex
+    ;
+        flex-direction: column;
+        gap: 20p
+  }
+  
+  select {
+    margin-left: 1rem;
+    padding: 0.3rem;
+  }
+  
+  
+  .loading, .no-data {
+    margin-top: 1rem;
+    color: #555;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  label{
+    display: block;
+  }
+  
+  .summary-row {
+    background-color: #f0f0f0;
+  }
+  
+  .export-section{
+    margin-top:70px;
+  }
+
+  .filter-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .clear-btn {
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .clear-btn:hover {
+    background-color: #d32f2f;
+  }
+  
