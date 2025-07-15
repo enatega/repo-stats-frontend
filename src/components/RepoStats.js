@@ -104,15 +104,15 @@ function RepoStats() {
     return allDates;
   }
 
-  function getDateRange(start, end) {
-    const range = [];
-    let current = new Date(start);
-    while (current <= end) {
-      range.push(current.toISOString().slice(0, 10));
-      current.setDate(current.getDate() + 1);
-    }
-    return range;
-  }
+  // function getDateRange(start, end) {
+  //   const range = [];
+  //   let current = new Date(start);
+  //   while (current <= end) {
+  //     range.push(current.toISOString().slice(0, 10));
+  //     current.setDate(current.getDate() + 1);
+  //   }
+  //   return range;
+  // }
 
   function getExportDataWithSummary(data) {
     if (data.length === 0) return [];
