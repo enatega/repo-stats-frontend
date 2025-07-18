@@ -12,7 +12,7 @@ import {
 import { CSVLink } from "react-csv";
 import "./RepoStats.css";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://repo-stats-backend-production.up.railway.app:3000/api";
 
 function RepoStats() {
   const [accounts, setAccounts] = useState([]);
